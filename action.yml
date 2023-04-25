@@ -50,5 +50,5 @@ inputs:
     required: false
     default: ''
 runs:
-  using: 'docker'
+  using: 'docker/build-push-action@v4'
   image: 'Dockerfile'
